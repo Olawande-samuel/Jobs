@@ -13,6 +13,7 @@ export default function Home() {
 		`developer&page=1`,
 		"3days"
 	);
+	console.log(process.env.RAPID_API_KEY);
 	return (
 		<SafeAreaView className="grow shrink-0">
 			<Stack.Screen
